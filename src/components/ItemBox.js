@@ -5,6 +5,7 @@ import { SPACING } from '../configs/styles'
 import ICON_PIN from '../statics/icon_pin.png'
 import ICON_CLOCK from '../statics/icon_clock.png'
 import DEFAULT_IMAGE from '../statics/image_default.png'
+import { getStyleBoxShadow } from '../utils/styles'
 
 const DEFAULT_FONT_SIZE = 14
 const DEFAULT_BORDER_COLOR = '#d9d9d9'
@@ -18,6 +19,7 @@ export const Wrapper = styled.div`
   padding: ${SPACING.SM}px;
   background: white;
   border: 1px solid ${DEFAULT_BORDER_COLOR};
+  ${getStyleBoxShadow(0, 4, 5, 0, 'rgba(232, 232, 232, 1)')};
 `
 
 const Container = styled.div`
