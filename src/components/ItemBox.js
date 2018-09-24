@@ -52,6 +52,7 @@ const CreatedAtBox = styled(DefaultContentBox)`
   display: flex;
   flex-direction: row;
   font-size: 12px;
+  margin-bottom: 0;
 `
 const CreatedAtImage = styled.img`
   width: 13px;
@@ -102,7 +103,7 @@ class ItemBox extends React.Component {
       <Wrapper>
         <Container>
           <PostImageBox>
-            <PostImage src={imageUrl} />
+            <PostImage src={DEFAULT_IMAGE} />
           </PostImageBox>
           <ContentWrapper>
             <Title>{title}</Title>
