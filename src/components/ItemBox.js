@@ -23,6 +23,7 @@ export const Wrapper = styled.div`
 const Container = styled.div`
   display: flex;
   flex-direction: row;
+  word-break: break-word;
 `
 const PostImageBox = styled.div`
   width: 15%;
