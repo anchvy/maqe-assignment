@@ -103,7 +103,7 @@ class ItemBox extends React.Component {
       <Wrapper>
         <Container>
           <PostImageBox>
-            <PostImage src={DEFAULT_IMAGE} />
+            <PostImage src={imageUrl} />
           </PostImageBox>
           <ContentWrapper>
             <Title>{title}</Title>
